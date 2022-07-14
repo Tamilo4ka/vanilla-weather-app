@@ -32,15 +32,18 @@ li {
 }
 .link {
   max-width: 600px;
-  margin: 30px auto;
+  margin: -20px auto;
 }
 .overview {
   margin-bottom: 20px;
 }
 .weather-temperature img {
-  margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  margin-right: 5px;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin-top: unset;
+  vertical-align: top;
 }
 .weather-temperature strong {
   font-size: 64px;
