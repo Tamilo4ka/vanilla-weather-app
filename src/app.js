@@ -31,8 +31,8 @@ function displayTemperature(response) {
 }
 
 let apiKey = "9f0294a92b6eb81ed3250921cf34f28c";
-
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`;
+let city = "Paris";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 console.log(apiUrl);
 
