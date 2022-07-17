@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   margin: 20px 0 10px;
@@ -7,7 +7,7 @@ h1 {
   font-weight: 700;
   font-size: 38px;
   line-height: 38px;
-  color: #272142;
+  color: #113f67;
 }
 
 ul {
@@ -26,16 +26,17 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-units {
-  text-decoration: none;
-}
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 2px solid #dadde1;
   border-radius: 10px;
-  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  background: linear-gradient(
+    359.3deg,
+    rgb(196, 214, 252) 1%,
+    rgba(187, 187, 187, 0) 70.9%
+  );
 }
 .link {
   max-width: 600px;
@@ -56,6 +57,7 @@ units {
   font-size: 64px;
   font-weight: 600;
   line-height: 1;
+  color: #113f67;
 }
 .weather-temperature .units {
   position: relative;
@@ -68,7 +70,11 @@ units {
   text-decoration: none;
 }
 .btn-primary {
-  background-color: #885df1;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(55, 209, 255) 0%,
+    rgb(14, 31, 111) 100.2%
+  );
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
